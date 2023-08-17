@@ -1,0 +1,213 @@
+    1  code .
+    2  code .
+    3  code .
+    4  code .
+    5  code .
+    6  mkdir informes
+    7  cd informes/
+    8  touch informeAnual.txt
+    9  ls
+   10  mkdir auditoria
+   11  touch auditoria.xls
+   12  touch reporteConsolidado.xls
+   13  ls
+   14  mv auditoria.xls auditoria
+   15  cd auditoria
+   16  ls
+   17  cd ..
+   18  cd ..
+   19  rm -d informes
+   20  cd informes
+   21  cd auditoria/
+   22  ls
+   23  rm auditoria.xls 
+   24  cd ..
+   25  rm -d auditoria
+   26  ls
+   27  rm informeAnual.txt 
+   28  rm reporteConsolidado.xls 
+   29  cd ..
+   30  ls
+   31  rm -d informes/
+   32  mkdir informes
+   33  cd informes
+   34  touch informeAnual.xls
+   35  ls
+   36  code .
+   37  pwd
+   38  cd ..
+   39  cd ..
+   40  ls
+   41  cd digitalHouse/
+   42  mkdir DH
+   43  cd DH
+   44  mkdir Peliculas
+   45  cd Peliculas/
+   46  mkdir Infantiles
+   47  mkdir Accion
+   48  mkdir Terror
+   49  mkdir Comedia
+   50  mkdir Romanticas
+   51  cd Infantiles/
+   52  touch Intenzamnte.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+   53  ls
+   54  cd ..
+   55  cd Accion
+   56  touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" Cars.jpg
+   57  cd ..
+   58  cd Terror/
+   59  touch "La dama y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.pdf" "We will rock you.js"
+   60  cd.. Comedia
+   61  cd ..
+   62  cd Comedia
+   63  touch Madagaskar.js "Orgullo y prejuicio.txt" IT.xls "Mision imposible.png"
+   64  cd ../Romanticas
+   65  touch Pocahontas.jpg Annabelle.js "Los vengadores.js" "La mascara.js"
+   66  ls
+   67  cd ..
+   68  cd ..
+   69  ls -h
+   70  ls
+   71  cd Peliculas/
+   72  ls -R
+   73  cd ..
+   74  mkdir Romanticas/Prueba
+   75  mkdir Peliculas/Romanticas/Prueba
+   76  ls
+   77  cd Peliculas/
+   78  ls
+   79  cd Romanticas/
+   80  ls
+   81  mkdir ../Accion/Prueba2
+   82  ls
+   83  cd ..
+   84  ls
+   85  cd Accion/
+   86  ls
+   87  git --version
+   88  ls
+   89  cd OneDrive/
+   90  ls
+   91  cd desktop
+   92  ls
+   93  cd escritorio/
+   94  ls
+   95  cd digitalHouse/
+   96  cd repoLocal/
+   97  git init
+   98  cd ..
+   99  mkdir repo2
+  100  cd repo2
+  101  git init
+  102  touch app.js
+  103  git status
+  104  git add app.js
+  105  git status
+  106  cd ..
+  107  mkdir mercadoAbierto
+  108  cd mercadoAbierto/
+  109  git init
+  110  touch productos.js
+  111  git status
+  112  git add productos.js
+  113  git status
+  114  git commit -m "mi primer commit"
+  115  git status
+  116  git config user.name
+  117  git config user.email
+  118  cd ..
+  119  mkdir repo1GitHub
+  120  cd repo1GitHub/
+  121  git clone https://github.com/LuciaCerpa/repo1.git
+  122  git status
+  123  git clone https://github.com/LuciaCerpa/repo1.git
+  124  git clone https://github.com/LuciaCerpa/repo1.git
+  125  cd repo1/
+  126  touch app.js
+  127  git status
+  128  git add .
+  129  git commit -m "mi primer commit"
+  130  git status
+  131  git push origin main
+  132  git status
+  133  code .
+  134  code .
+  135  ocde .
+  136  code .
+  137  cd desktop
+  138  code .
+  139  code .
+  140  code .
+  141  code .
+  142  code .
+  143  code .
+  144  code .
+  145  code .
+  146  code .
+  147  code .
+  148  code .
+  149  code .
+  150  git init
+  151  git remote add origin https://github.com/LuciaCerpa/16-08-2023-LuciaCerpa.git
+  152  touch main.js index.html
+  153  git add .
+  154  git commit -m "commit 01 de Lucia Cerpa"
+  155  git push
+  156   git push --set-upstream origin main  
+  157  git branch feature
+  158  git checkout feature
+  159  mkdir Hardware Software SeguridadInformatica
+  160  cd Hardware/
+  161  touch resumen.txt
+  162  cd ../Software/
+  163  touch resumen.txt
+  164  cd ../SeguridadInformatica/
+  165  touch resumen.txt
+  166  git add .
+  167  git commit "commit 02 de Lucia Cerpa"
+  168  git commit -m "commit 02 de Lucia Cerpa"
+  169  git push
+  170  git push origin feature
+  171  git checkout main
+  172  mv main.js resumenHardware.txt
+  173  dir
+  174  ls
+  175  cd ..
+  176  mv main.js resumenHardware.txt
+  177  mv index.html resumenSoftware.txt
+  178  echo Navegador web, Microsoft Word, Adobe Photoshop >> resumenSoftware.txt
+  179  echo Memoria RAM, Memoria Rom, Memoria Cache >> resumenHardware.txt
+  180  touch comandos.txt
+  181  history >> comandos.txt
+  150  git init
+  151  git remote add origin https://github.com/LuciaCerpa/16-08-2023-LuciaCerpa.git
+  152  touch main.js index.html
+  153  git add .
+  154  git commit -m "commit 01 de Lucia Cerpa"
+  155  git push
+  156   git push --set-upstream origin main  
+  157  git branch feature
+  158  git checkout feature
+  159  mkdir Hardware Software SeguridadInformatica
+  160  cd Hardware/
+  161  touch resumen.txt
+  162  cd ../Software/
+  163  touch resumen.txt
+  164  cd ../SeguridadInformatica/
+  165  touch resumen.txt
+  166  git add .
+  167  git commit "commit 02 de Lucia Cerpa"
+  168  git commit -m "commit 02 de Lucia Cerpa"
+  169  git push
+  170  git push origin feature
+  171  git checkout main
+  172  mv main.js resumenHardware.txt
+  173  dir
+  174  ls
+  175  cd ..
+  176  mv main.js resumenHardware.txt
+  177  mv index.html resumenSoftware.txt
+  178  echo Navegador web, Microsoft Word, Adobe Photoshop >> resumenSoftware.txt
+  179  echo Memoria RAM, Memoria Rom, Memoria Cache >> resumenHardware.txt
+  180  touch comandos.txt
+  181  history >> comandos.txt
